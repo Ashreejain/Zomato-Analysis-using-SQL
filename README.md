@@ -1,4 +1,4 @@
-## Zomato-Analysis-using-SQL
+# Zomato-Analysis-using-SQL
 
 SQL is the one of the most asked skillset. I have created an end to end project on data analysis using SQL. You can find the code attached below -
 
@@ -54,3 +54,10 @@ select * from sales;
 select * from product;
 select * from goldusers_signup;
 select * from users;
+
+
+## SO HERE WE ARE VARIOUS QUESTIONS BASED ON ANALYSIS-
+
+### What is the total amount each customer spent on zomato?
+
+--> select s.userid, sum(p.price) from sales s join product p on s.product_id = p.product_id group by s.userid order by s.userid
