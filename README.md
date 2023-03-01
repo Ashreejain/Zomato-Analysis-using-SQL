@@ -1,4 +1,4 @@
-# Zomato-Analysis-using-SQL
+## Zomato-Analysis-using-SQL
 
 SQL is the one of the most asked skillset. I have created an end to end project on data analysis using SQL. You can find the code attached below -
 
