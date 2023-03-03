@@ -72,6 +72,4 @@ select * from users;
 
 --> select * from (select * , rank () over (partition by userid order by created_date ) rnk from sales) a where rnk=1; 
 
-### 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 
---> 
